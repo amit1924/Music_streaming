@@ -1,0 +1,118 @@
+ @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+
+body{
+    background-color: aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'castoroTitlings'sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    align-items: center;
+}
+
+.music{
+    height: 60px;
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.li{
+    padding: 0px 12px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: rgb(58, 225, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('kk3.jpg');
+
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    
+
+}
+
+#progressBar{
+    width: 1000px;
+    cursor: pointer;
+}
+
+.icons{
+  margin: 14px;
+  position: sticky;
+}
+
+.icons i{
+    cursor: pointer;
+    
+    
+}
+
+.songItem{
+    height: 37px;
+    display: flex;
+    background-color:#87a145;
+    color: black;
+    border-radius: 100px;
+    
+}
+.sach{
+   
+    margin: 0px 23px;
+    
+}
+.fa{
+    cursor: pointer;
+}
+.songItemConatiner{
+    margin-top: 44px;
+}
+
+.songInfo{
+    margin-top: 21px;
+    position: absolute;
+    left: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}

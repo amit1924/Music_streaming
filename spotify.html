@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+    <ul>
+        <li class="brand"><img src="m.jpg" alt="spotify" class="music">Spotify</li>
+        <li class="li">Home</li>
+        <li class="li">About</li>
+       
+    </ul>
+   </nav> 
+   <div class="container">
+  
+    <div class="songList">
+        <h1>Best Of KK</h1>
+        <div class="songItemConatiner">
+            <div class="songItem">
+               
+                <span class="sach">Sach Keh Raha Hai</span>
+                <span class="songPlay"><span>05:27</span><i id ="0" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+            <div class="songItem">
+               
+                <span class="sach">Maine dil se kaha</span>
+                <span class="songPlay"><span>05:27</span><i id ="1" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+            <div class="songItem">
+               
+                <span class="sach">Tu mujhe soch kabhi</span>
+                <span class="songPlay"><span>05:27</span><i id ="2" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+            <div class="songItem">
+               
+                <span class="sach">Zara si</span>
+                <span class="songPlay"><span>05:27</span><i id ="3" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+            <div class="songItem">
+               
+                <span class="sach">Tujhe Sochta Hoon</span>
+                <span class="songPlay"><span>05:27</span><i id ="4" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+            <div class="songItem">
+               
+                <span class="sach">Haan tu Hai</span>
+                <span class="songPlay"><span>05:27</span><i id ="5" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+            <div class="songItem">
+               
+                <span class="sach">Sajde kiye hai</span>
+                <span class="songPlay"><span>05:27</span><i id ="6" class="fa fa-circle-play fa-shake"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="songBanner"></div>
+   </div>
+   <div class="bottom">
+    <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <i class="fa fa-backward-fast" id="previous"></i>
+        <i class="fa fa-circle-play fa-shake" id="masterPlay"></i>
+        <i class="fa fa-forward-fast" id="next"></i>
+       
+    </div>
+    <div class="songInfo">
+        <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Sach keh raha hai</span>
+
+    </div>
+   </div>
+   <script src="https://kit.fontawesome.com/19240bad45.js" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+
+</body>
+</html>
